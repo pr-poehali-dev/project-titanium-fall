@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Технологии
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Тенденции и направления</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Промышленный IoT",
+              description: "Интеграция датчиков и контроллеров в единые цифровые экосистемы Industry 4.0",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Цифровые двойники",
+              description: "Виртуальные модели технологических процессов для мониторинга и оптимизации в реальном времени",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Беспроводные сети",
+              description: "WirelessHART, ISA 100.11a — передача данных с датчиков без кабельной разводки",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Искусственный интеллект",
+              description: "Предиктивная аналитика и машинное обучение для диагностики оборудования",
               direction: "bottom",
             },
           ].map((service, i) => (
